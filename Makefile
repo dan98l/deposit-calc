@@ -36,3 +36,5 @@ test: $(BUILDPATH)$(DPSTTEST).o $(BUILDPATH)$(MAINTEST).o $(BUILDPATH)$(DPST).o
 
 clean:
 	rm -rf $(BUILDPATH)*.o
+	rm -r bin
+	rm -r build
