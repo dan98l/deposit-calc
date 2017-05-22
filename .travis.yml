@@ -1,7 +1,9 @@
 language: c
 
+compiler: gcc
+
 install: 
-  - make
+  - make 
 
 script:
   - bin/deposit-calc-test
